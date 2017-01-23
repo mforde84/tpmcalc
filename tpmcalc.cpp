@@ -66,7 +66,7 @@ vector<vector<double> > load_counts(char* filename, int start_size, int anno_col
 			n++;
 		}
 		counts_file.close();
-		for(x : head.scale){
+		for(double x : head.scale){
 			x /= 1000000;
 		}
 		return(push_matrix);
